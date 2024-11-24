@@ -5,3 +5,8 @@ echo "$PERSON1:: Hi ${PERSON2}, How r u?"
 echo "${PERSON2}:: hello $PERSON1.Iam fine,how r h doing?"
 echo "$PERSON1::I am doing good. ${PERSON2}  what's going on?"
 echo "${PERSON2}::I started Learning shell script $PERSON1"
+
+MOVIE1=$1
+MOVIE2=$2
+
+echo "$MOVIE1 is good but tickets not available on today on theatres, but $MOVIE2 is avaerage but tickets available on today"
